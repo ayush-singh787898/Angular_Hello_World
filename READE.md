@@ -1,8 +1,6 @@
 # This is Hello World App Using Angular
 
 
-
-# Helloworld From BridgeLabz
 ## Development server
 
 To start a local development server, run:
