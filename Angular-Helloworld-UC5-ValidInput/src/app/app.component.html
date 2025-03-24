@@ -1,0 +1,13 @@
+
+<div>
+  <h1>Hello {{this.userName}}</h1>
+
+  <img [src]="imgUrl" (click)="onClick($event)">
+  
+  <input (input) ="onInput($event)" [(ngModel)]="userName" />
+
+  <span class = error-output>{{this.nameError}}</span>
+
+</div>
+
+<router-outlet />
